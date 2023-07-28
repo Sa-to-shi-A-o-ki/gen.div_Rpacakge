@@ -1,0 +1,14 @@
+Package: gen.div
+Type: Package
+Title: Calculate genetic diversities
+Version: 1.0.0
+Author: Satoshi Aoki
+Maintainer: Satoshi Aoki <aokis1ll1@gmail.com>
+Date:2023-07-25
+Description: Calculate expected heterozygosity, nucleotide diversity, Watterson's theta and mean substitution rate between all allele types.
+    Expected heterozygosity and nucleotide diversity are calculated as parameters and unbiased estimators.
+    Watterson's theta is calculated as the original value and per-site value.
+    The calculation is based on aligned sequences, which are obtained by read.FASTA function in ape package.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
